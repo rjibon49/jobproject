@@ -10,9 +10,9 @@
 .blue {
     color: rgba(0, 43, 70, 1);
 }
-body {
+/* body {
     width: 1920px;
-}
+} */
 section {
     margin-bottom: 110px;
 }
@@ -51,9 +51,7 @@ ul, li {
     list-style: none;
     padding: 0;
 }
-li {
-    padding: 0;
-}
+
 /* Banner Section */
 
 #overlay .title-a{
@@ -63,6 +61,7 @@ li {
     background-image: url("../images/bc1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .banner-overlay {
     background-color: rgb(0 43 70 / 80%);
@@ -147,15 +146,8 @@ li {
   /* What Make Us Difference  */
 
 
-  .difference-overlay {
-
-  }
-
 
   /* Experts  */
- 
-
-
 
  .expert .card {
     width: 350px;
@@ -210,6 +202,7 @@ li {
     background-image: url("../images/images7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .addvertise h1 {
@@ -275,3 +268,72 @@ li {
  .footer-icon i:hover {
     background-color: rgba(255, 161, 0, 1);;
 }
+
+
+
+/* Media Quary  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    /* Global  */
+
+    .title {
+        font-size: 34px;
+    }
+
+    /* Header  */
+
+    .top-header{
+        display: none;
+    }
+
+    .banner {
+        background-size: cover;
+    }
+
+    .history {
+        flex-direction: column;
+    }
+    .history p {
+        text-align: center;
+    }
+
+    .expert .card .imgContainer {
+        text-align: center;
+    }
+
+    .expert .card:hover {
+        height: 370px;
+    }
+
+    .learn div {
+    }
+
+    .learn-details{
+        margin: 0 !important;
+    }
+
+    .newsletter-form {
+        margin-bottom: 50px;
+    }
+    .platform .Resources .touch {
+        margin: 0;
+        padding: 0;
+    }
+  }
+
+
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+    .top-header-info {
+        width: 50%;
+    }
+    .top-header-search {
+        width: 50%;
+    }
+
+    .card {
+        width: 50%;
+    }
+    
+  }
