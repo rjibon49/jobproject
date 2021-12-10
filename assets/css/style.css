@@ -324,16 +324,22 @@ ul, li {
 
 
   @media (min-width: 481px) and (max-width: 767px) {
-  
-    .top-header-info {
-        width: 50%;
+    
+    .top-header{
+        display: none;
     }
-    .top-header-search {
-        width: 50%;
+    
+    .content .content-overlay {
+        width: 73%;
     }
 
-    .card {
-        width: 50%;
+    .expert .card:hover {
+        height: 340px;
     }
+
+    .content:hover .content-details{
+        left: 35%;
+      }
+    
     
   }
