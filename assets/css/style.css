@@ -1,0 +1,263 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700;800&display=swap');
+
+/* Global Style  */
+
+.golden {
+    color: rgba(255, 161, 0, 1);
+}
+
+.blue {
+    color: rgba(0, 43, 70, 1);
+}
+body {
+    width: 1920px;
+}
+section {
+    margin-bottom: 110px;
+}
+
+.title {
+    color: rgba(0, 43, 70, 1);
+    font-size: 48px;
+    font-weight: 700;
+}
+.subtitle {
+    color: rgba(0, 43, 70, 1);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.subdetails{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.list-text {
+    color: rgba(0, 43, 70, 1);
+    font-size: 16px;
+}
+
+.top-header, footer{
+    background-color: rgba(0, 43, 70, 1);
+}
+
+i {
+    color: rgba(255, 161, 0, 1);
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 0;
+}
+/* Banner Section */
+
+#overlay .title-a{
+    height: 400px;
+}
+.banner {
+    background-image: url("../images/bc1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-overlay {
+    background-color: rgb(0 43 70 / 80%);
+}
+.color-text {
+    color: rgba(255, 161, 0, 1);
+}
+
+/* Feature Section  */
+
+.feature {
+    position: absolute;
+}
+.feature-icon2 {
+    position: relative;
+    top: -12px;
+    left: 4px;
+}
+
+.f-img-blue{
+    width: 329px;
+    background-color: #002B46;
+    padding: 10px 0;
+}
+.f-img-golden{
+    width: 329px;
+    background-color: #FFA100;
+    padding: 10px 0;
+    right: 425px;
+    top: 700px;
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgb(0 43 70 / 74%);
+    position: absolute;
+    height: 99%;
+    width: 91%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+
+  .fadeIn-bottom{
+    top: 80%;
+  }
+
+  /* What Make Us Difference  */
+
+
+  .difference-overlay {
+
+  }
+
+
+  /* Experts  */
+ 
+
+
+
+ .expert .card {
+    width: 350px;
+    height: 215px;
+    transition: 0.3s ease-in-out
+}
+
+.expert .card:hover {
+    background-color: rgba(0, 43, 70, 1);
+    height: 320px;
+}
+
+.expert .card .imgContainer {
+    position: relative;
+    width: 320px;
+    top: -50px;
+    left: 0px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.expert .card .imgContainer img {
+    border-radius: 10px;
+    border: 10px solid rgba(255, 161, 0, 1);
+}
+
+.expert .card .ex-content {
+    
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 10px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out
+}
+
+.expert .card:hover .ex-content {
+    visibility: visible;
+    color: white;
+    opacity: 1;
+    margin-top: -50px;
+    transition-delay: 0.3s;
+    background-color: rgba(0, 43, 70, 1);
+}
+
+/* Experts End  */
+/* Advertice  Section*/
+
+.addvertise {
+    background-image: url("../images/images7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.addvertise h1 {
+    font-size: 34px;
+}
+
+/* Advertice  Section End*/
+/* Learn  Section*/
+
+.learn button {
+    background-color: rgba(0, 43, 70, 1);
+}
+hr {
+    background-color: rgba(102, 101, 101, 1);
+    color: rgba(102, 101, 101, 1);
+    width: 100px;
+    height: 20px;
+    border: 0;
+    opacity: 0.25;
+}
+
+/* Learn Section End*/
+
+
+.newsletter-form {
+    background-color: white;
+    position: relative;
+    width: 90%;
+    height: 46px;
+    z-index: 2;
+ }
+
+    .newsletter-form input {
+      width: 90%;
+      height: 100%;
+      border: none;
+      color: #000;
+ }
+.newsletter-form button {
+      position: absolute;
+      top: 0px;
+      right: -40px;
+      bottom: -5px;
+      width: 108px;
+      height: 46px;
+      background-color: #FFA100;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+ }
