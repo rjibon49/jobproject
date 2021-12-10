@@ -291,6 +291,11 @@ ul, li {
         background-size: cover;
     }
 
+    .f-img-golden {
+        top: 1040px;
+        right: 140px;
+    }
+
     .history {
         flex-direction: column;
     }
@@ -320,6 +325,12 @@ ul, li {
         margin: 0;
         padding: 0;
     }
+    .footer-icon {
+        text-align: center;
+    }
+    .footer-text {
+        text-align: center;
+    }
   }
 
 
@@ -328,7 +339,8 @@ ul, li {
     .top-header{
         display: none;
     }
-    
+
+
     .content .content-overlay {
         width: 73%;
     }
@@ -341,5 +353,13 @@ ul, li {
         left: 35%;
       }
     
+    
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .f-img-golden {
+        top: 955px;
+    }
     
   }
