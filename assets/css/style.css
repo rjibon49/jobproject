@@ -222,14 +222,7 @@ li {
 .learn button {
     background-color: rgba(0, 43, 70, 1);
 }
-hr {
-    background-color: rgba(102, 101, 101, 1);
-    color: rgba(102, 101, 101, 1);
-    width: 100px;
-    height: 20px;
-    border: 0;
-    opacity: 0.25;
-}
+
 
 /* Learn Section End*/
 
@@ -261,3 +254,24 @@ hr {
       border-radius: 5px;
       cursor: pointer;
  }
+
+ /* Footer Section  */
+
+ .verticale {
+     text-align: center;
+     height: 2px;
+     border-bottom: 2px;
+     background-color: rgba(255, 255, 255, 1);
+     color: rgba(255, 255, 255, 1);
+ }
+
+ .footer-icon i {
+     padding: 10px;
+     border: 1px solid white;
+     border-radius: 50%;
+     color: white;
+     margin: 30px 10px ;
+ }
+ .footer-icon i:hover {
+    background-color: rgba(255, 161, 0, 1);;
+}
