@@ -90,8 +90,8 @@ ul, li {
     width: 329px;
     background-color: #FFA100;
     padding: 10px 0;
-    right: 425px;
-    top: 700px;
+    right: 350px;
+    top: 735px;
 }
 
 .content {
@@ -218,10 +218,6 @@ ul, li {
     background-position: center;
 }
 
-.addvertise h1 {
-    font-size: 34px;
-}
-
 /* Advertice  Section End*/
 /* Learn  Section*/
 
@@ -291,7 +287,8 @@ ul, li {
     /* Global  */
 
     .title {
-        font-size: 34px;
+        font-size: 26px;
+        text-align: left;
     }
 
     /* Header  */
@@ -304,9 +301,17 @@ ul, li {
         background-size: cover;
     }
 
+    .f-img-blue{
+        width: 309px;
+        float: left !important;
+    }
+    .f-img-blue img {
+        width: 290px;
+        margin: 0 auto;
+    }
+
     .f-img-golden {
-        top: 1040px;
-        right: 140px;
+        display: none;
     }
 
     .history {
@@ -328,18 +333,23 @@ ul, li {
         margin: 0 !important;
     }
 
+    .vr {
+        display: none;
+    }
+
     .newsletter-form {
         margin-bottom: 50px;
+        margin-left: -5px;
     }
-    .platform .Resources .touch {
-        margin: 0;
-        padding: 0;
+    .platform {
+        margin: 0 !important;
+        padding: 0 !important;
     }
     .footer-icon {
         text-align: center;
     }
     .footer-text {
-        text-align: center;
+        text-align: start !important;
     }
   }
 
@@ -366,10 +376,36 @@ ul, li {
     
   }
 
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   
+    .title {
+        font-size: 38px;
+    }
+    .f-img-golden ,.f-img-blue{
+        width: 309px;
+        height: 180px;
+    }
+    .f-img-golden img {
+        width: 289px;
+        height: 160px;
+    }
+    .f-img-blue img {
+        width: 289px;
+        height: 160px;
+    }
     .f-img-golden {
-        top: 955px;
+        top: 850px;
+        right: 40px;
     }
     
+  }
+
+  @media (min-width: 1024px) {
+    .f-img-blue {
+        top: 20px;
+    }
+    .f-img-golden {
+        top: 750px;
+        right: 270px;
+    }
   }
